@@ -14,7 +14,7 @@ function MainPage({setOnline, setIsMainPage}) {
         flexDirection: "column",
         justifyContent: "space-around",
         alignItems: "center",
-        height: "calc(100lvh - 80px)",
+        height: "calc(100dvh - 80px)",
         fontSize: "30px",
         
     }}>
