@@ -52,7 +52,10 @@ export default function Board() {
 
     return (
         <>
-            <div> {content} </div>
+            <div style={{
+                fontSize: "21px",
+                marginBottom: "4px",
+            }}> {content} </div>
             <div className="board">
                 <div className="row flex-align">
                     <Square
@@ -115,6 +118,16 @@ export default function Board() {
                     />
                 </div>
             </div>
+            <center style={{
+                marginTop: "50px",
+            }}>
+            <button className="btn" onClick={() => {
+                setBoxValues(Array(9).fill(null));
+                setIsXNext(true);
+            }}
+                
+            >Reset</button>
+            </center>
         </>
     );
 }

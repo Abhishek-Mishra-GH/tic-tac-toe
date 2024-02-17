@@ -14,11 +14,23 @@
   text-align: center;
 }
 
-
-
-
 .flex-align {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.btn {
+  font-size: 21px;
+  padding: 10px 20px;
+  margin: 5px 0;
+  background-color: black;
+  color: white;
+  border: 2px solid white
+}
+
+.btn:hover, .btn:active {
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
